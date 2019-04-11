@@ -1,0 +1,22 @@
+{
+  "name": "whiteprint",
+  "version": "0.1.0",
+  "description": "Front-end component library",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whiteprint/whiteprint.git"
+  },
+  "author": {
+    "name": "Sam Smith",
+    "url": "https://smth.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whiteprint/whiteprint/issues"
+  },
+  "homepage": "https://whiteprint.io/",
+  "dependencies": {
+    "@whiteprint/components": "^0.1.0",
+    "@whiteprint/icons": "^0.1.0"
+  }
+}
