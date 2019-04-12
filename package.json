@@ -1,6 +1,6 @@
 {
   "name": "whiteprint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Front-end component library",
   "repository": {
     "type": "git",
@@ -17,6 +17,13 @@
   "homepage": "https://whiteprint.io/",
   "dependencies": {
     "@whiteprint/components": "^0.1.0",
-    "@whiteprint/icons": "^0.1.0"
+    "@whiteprint/icons": "^0.1.0",
+    "copyfiles": "^2.1.0"
+  },
+  "bin": {
+    "whiteprint-quick-files": "bin/quick-files.js"
+  },
+  "scripts": {
+    "quick-files": "whiteprint-quick-files"
   }
 }
