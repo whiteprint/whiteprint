@@ -1,7 +1,7 @@
 {
   "name": "whiteprint",
-  "version": "0.2.0",
-  "description": "Front-end component library",
+  "version": "0.2.3",
+  "description": "CSS framework",
   "repository": {
     "type": "git",
     "url": "git://github.com/whiteprint/whiteprint.git"
@@ -16,8 +16,10 @@
   },
   "homepage": "https://whiteprint.io/",
   "dependencies": {
-    "@whiteprint/components": "^0.1.0",
-    "@whiteprint/icons": "^0.1.0",
+    "@whiteprint/base": "^0.1.1",
+    "@whiteprint/components": "^0.2.1",
+    "@whiteprint/icons": "^0.1.1",
+    "@whiteprint/placeholders": "^0.1.1",
     "copyfiles": "^2.1.0"
   },
   "bin": {
