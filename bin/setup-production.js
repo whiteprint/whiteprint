@@ -20,6 +20,10 @@ copyfiles(["./node_modules/@whiteprint/components/lib/*/[^_]*.css", dest + "/src
     if (err) console.error(err);
 });
 
+copyfiles(["./node_modules/@whiteprint/layouts/lib/*/[^_]*.css", dest + "/src/css/layouts"], true, function (err) {
+    if (err) console.error(err);
+});
+
 copyfiles(["./node_modules/@whiteprint/components/dist/components.js", dest + "/js"], true, function (err) {
     if (err) console.error(err);
 });
