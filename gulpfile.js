@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
+const header = require('gulp-header');
 
 gulp.task('prototype:css', function() {
   return gulp.src([
@@ -19,4 +20,14 @@ gulp.task('prototype:js', function() {
   ])
     .pipe(concat('prototype.js'))
     .pipe(gulp.dest('./'));
+});
+
+gulp.task('production:vars', function() {
+  return gulp.src([
+    '../@whiteprint/base/src/variables.css',
+    '../@whiteprint/components/lib/variables.css'
+  ])
+    .pipe(concat('variables.css'))
+    .pipe(header('/* Base */\n'))
+    .pipe(gulp.dest('./templates'));
 });
