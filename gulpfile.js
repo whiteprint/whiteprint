@@ -25,7 +25,8 @@ gulp.task('prototype:js', function() {
 gulp.task('production:vars', function() {
   return gulp.src([
     '../@whiteprint/base/src/variables.css',
-    '../@whiteprint/components/lib/variables.css'
+    '../@whiteprint/components/lib/variables.css',
+    '../@whiteprint/layouts/lib/variables.css'
   ])
     .pipe(concat('variables.css'))
     .pipe(header('/* Base */\n'))

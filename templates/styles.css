@@ -45,6 +45,9 @@
 @import "components/text-meta.css";
 
 
+@import "../../node_modules/@whiteprint/layouts/lib/covers/_cover";
+@import "layouts/cover.css";
+
 @import "../../node_modules/@whiteprint/layouts/lib/sidebars/_sidebar";
 @import "layouts/sidebar.css";
 
