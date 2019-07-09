@@ -12,14 +12,15 @@
 @import "components/button.css";
 @import "components/button-primary.css";
 
-@import "../../node_modules/@whiteprint/components/lib/buttons/_button-group";
-@import "components/button-group.css";
-
 @import "../../node_modules/@whiteprint/components/lib/cards/_card";
 @import "components/card.css";
 
 @import "../../node_modules/@whiteprint/components/lib/dropdowns/_dropdown";
 @import "components/dropdown.css";
+
+@import "../../node_modules/@whiteprint/components/lib/groups/_group";
+@import "components/group.css";
+@import "components/button-group.css";
 
 @import "../../node_modules/@whiteprint/components/lib/icon-lists/_icon-list";
 @import "components/icon-list.css";
