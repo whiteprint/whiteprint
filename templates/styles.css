@@ -53,3 +53,6 @@
 
 @import "../../node_modules/@whiteprint/layouts/lib/stacks/_stack";
 @import "layouts/stack.css";
+
+@import "../../node_modules/@whiteprint/layouts/lib/columns/_column";
+@import "layouts/columns.css";
