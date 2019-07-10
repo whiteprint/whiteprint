@@ -18,7 +18,7 @@
   "dependencies": {
     "@whiteprint/base": "^0.1.2",
     "@whiteprint/components": "^0.3.1",
-    "@whiteprint/icons": "^0.1.1",
+    "@whiteprint/icons": "^0.1.2",
     "@whiteprint/layouts": "^0.1.5",
     "@whiteprint/placeholders": "^0.1.1",
     "copyfiles": "^2.1.0",
