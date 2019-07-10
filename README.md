@@ -1,15 +1,5 @@
 # Whiteprint
 
-## Quick start
+See [whiteprint.io](https://whiteprint.io/)
 
-Install with [npm](https://www.npmjs.com/):
-
-```
-npm install whiteprint
-```
-
-Get browser ready CSS and JS files, for quick prototypes:
-
-```
-./node_modules/.bin/whiteprint-quick-files
-```
+This is a wrapper around the various parts of the framework.
