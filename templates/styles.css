@@ -22,6 +22,9 @@
 @import "components/group.css";
 @import "components/button-group.css";
 
+@import "../../node_modules/@whiteprint/components/lib/icons/_icon";
+@import "components/icon.css";
+
 @import "../../node_modules/@whiteprint/components/lib/icon-lists/_icon-list";
 @import "components/icon-list.css";
 
@@ -57,3 +60,7 @@
 
 @import "../../node_modules/@whiteprint/layouts/lib/columns/_column";
 @import "layouts/columns.css";
+
+@import "../../node_modules/@whiteprint/layouts/lib/containers/_container";
+@import "layouts/container.css";
+@import "layouts/text-container.css";
