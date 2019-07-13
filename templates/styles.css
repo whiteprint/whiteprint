@@ -5,6 +5,9 @@
 @import "../../node_modules/@whiteprint/components/lib/alerts/_alert";
 @import "components/alert.css";
 
+@import "../../node_modules/@whiteprint/components/lib/_banner";
+@import "components/banner.css";
+
 @import "../../node_modules/@whiteprint/components/lib/bars/_bar";
 @import "components/top-bar.css";
 
@@ -57,7 +60,6 @@
 
 @import "../../node_modules/@whiteprint/layouts/lib/stacks/_stack";
 @import "layouts/stack.css";
-@import "layouts/banner.css";
 
 @import "../../node_modules/@whiteprint/layouts/lib/columns/_column";
 @import "layouts/columns.css";
