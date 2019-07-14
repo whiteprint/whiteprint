@@ -60,10 +60,10 @@
 
 @import "../../node_modules/@whiteprint/layouts/lib/stacks/_stack";
 @import "layouts/stack.css";
+@import "layouts/page.css";
 
 @import "../../node_modules/@whiteprint/layouts/lib/columns/_column";
 @import "layouts/columns.css";
 
 @import "../../node_modules/@whiteprint/layouts/lib/containers/_container";
 @import "layouts/container.css";
-@import "layouts/text-container.css";
