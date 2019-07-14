@@ -5,7 +5,7 @@
 @import "../../node_modules/@whiteprint/components/lib/alerts/_alert";
 @import "components/alert.css";
 
-@import "../../node_modules/@whiteprint/components/lib/_banner";
+@import "../../node_modules/@whiteprint/components/lib/banners/_banner";
 @import "components/banner.css";
 
 @import "../../node_modules/@whiteprint/components/lib/bars/_bar";
