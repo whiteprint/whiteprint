@@ -9,7 +9,7 @@
 @import "components/banner.css";
 
 @import "../../node_modules/@whiteprint/components/lib/bars/_bar";
-@import "components/top-bar.css";
+@import "components/nav-bar.css";
 
 @import "../../node_modules/@whiteprint/components/lib/buttons/_button";
 @import "components/button.css";
