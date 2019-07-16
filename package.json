@@ -1,6 +1,6 @@
 {
   "name": "whiteprint",
-  "version": "0.3.32",
+  "version": "0.3.33",
   "description": "CSS framework",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   },
   "homepage": "https://whiteprint.io/",
   "dependencies": {
-    "@whiteprint/base": "^0.1.3",
+    "@whiteprint/base": "^0.1.4",
     "@whiteprint/components": "^0.3.8",
     "@whiteprint/icons": "^0.1.6",
     "@whiteprint/layouts": "^0.1.13",
